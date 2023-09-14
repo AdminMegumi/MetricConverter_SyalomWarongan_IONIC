@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar class = "new-bg-color">
+   <ion-title> + + + Prototype + + + </ion-title>
+  </ion-toolbar>
+ </ion-header>
+
+ <ion-content [fullscreen]="true">
+
+  <div class = "title">
+ <ion-text> Metric Converter </ion-text>
+ </div>
+
+   <div class = "by">
+ <p>By: Syalom M. F. Warongan</p>
+   </div>
+   
+   <div class = "dari">
+   <p> Dari : </p>
+   </div>
+
+   <ion-list>
+    <ion-item>
+      <ion-select id="metrik" aria-label="metric" interface="action-sheet"  placeholder="Pilih Metric" onchange="dis(this)">
+        <ion-select-option value="Panjang">Panjang</ion-select-option>
+        <ion-select-option value="Massa">Massa</ion-select-option>
+        <ion-select-option value="Waktu">Waktu</ion-select-option>
+        <ion-select-option value="Arus Listrik">Arus Listrik</ion-select-option>
+        <ion-select-option value="Suhu">Suhu</ion-select-option>
+        <ion-select-option value="Intensitas Cahaya">Intensitas Cahaya</ion-select-option>
+        <ion-select-option value="Jumlah Zat">Jumlah Zat</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-select id="sat1" disabled="false" aria-label="satuan1" interface="action-sheet" placeholder="Pilih Satuan">
+        <ion-select-option value="milimeter">Milimeter(mm)</ion-select-option>
+        <ion-select-option value="centimeter">Centimeter(cm)</ion-select-option>
+        <ion-select-option value="desimeter">Desimeter(dm)</ion-select-option>
+        <ion-select-option value="meter">Meter(m)</ion-select-option>
+        <ion-select-option value="dekameter">Dekameter(dam)</ion-select-option>
+        <ion-select-option value="hektometer">Hektometer(hm)</ion-select-option>
+        <ion-select-option value="kilometer">Kilometer(km)</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+   <div class = "ke">
+    <p> Ke : </p>
+    </div>
+
+    <ion-list>
+      <ion-item>
+        <ion-select id="sat2" disabled="false" aria-label="satuan2" interface="action-sheet" placeholder="Pilih Satuan">
+          <ion-select-option value="milimeter">Milimeter(mm)</ion-select-option>
+          <ion-select-option value="centimeter">Centimeter(cm)</ion-select-option>
+          <ion-select-option value="desimeter">Desimeter(dm)</ion-select-option>
+          <ion-select-option value="meter">Meter(m)</ion-select-option>
+          <ion-select-option value="dekameter">Dekameter(dam)</ion-select-option>
+          <ion-select-option value="hektometer">Hektometer(hm)</ion-select-option>
+          <ion-select-option value="kilometer">Kilometer(km)</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item>
+        <ion-input id="num" disabled="false" type="number" labelPlacement="floating">
+          <div slot="label">Input <ion-text color="danger">(Numeric input required)</ion-text></div>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+
+
+    <script type="text/javascript">
+
+      
+    
+    </script>
+
+
+    <ion-input  disabled="true" type="text" placeholder="Output" id="res"></ion-input>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar class = "new-bg-color">
+    <ion-title class = "foot">Mobile Aplication Development 2023</ion-title>
+  </ion-toolbar>
+</ion-footer>
+
+

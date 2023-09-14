@@ -1,0 +1,54 @@
+ion-title {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  margin-top: 30px;
+  font-family: monospace;
+  font-style: bold;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.by {
+color: white;
+text-align: center;
+}
+
+.dari {
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.ke {
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+ion-content {
+  --background: #040f13;
+}
+
+.new-bg-color {
+  --background: #071e26;
+}
+
+.di {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#res {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  color: white;
+}
